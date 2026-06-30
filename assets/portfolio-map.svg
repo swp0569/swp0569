@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sangwon Jasper Park — quantitative trader and trading-systems builder</title>
+  <desc id="desc">Portfolio map spanning basis arbitrage, systematic U.S. equities, and Korean event research.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.48" stop-color="#172554"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .ui{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+      .name{font-size:35px;font-weight:760;fill:#ffffff;letter-spacing:-0.6px}
+      .role{font-size:15px;font-weight:650;fill:#cbd5e1;letter-spacing:0.4px}
+      .pill{font-size:10.5px;font-weight:750;fill:#e0e7ff;letter-spacing:1.1px}
+      .cardTag{font-size:10px;font-weight:750;letter-spacing:1.2px}
+      .cardTitle{font-size:18px;font-weight:740;fill:#ffffff}
+      .cardSub{font-size:12.5px;fill:#cbd5e1}
+      .cardMeta{font-size:11.5px;font-weight:650;fill:#e2e8f0}
+      .footer{font-size:12px;font-weight:600;fill:#cbd5e1}
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <circle cx="1080" cy="-15" r="190" fill="#7c3aed" fill-opacity="0.12"/>
+  <circle cx="100" cy="390" r="210" fill="#0891b2" fill-opacity="0.10"/>
+  <rect x="42" y="34" width="1116" height="4" rx="2" fill="url(#glow)"/>
+
+  <g class="ui">
+    <text x="56" y="88" class="name">Sangwon (Jasper) Park</text>
+    <text x="56" y="119" class="role">QUANTITATIVE TRADER · MARKET MICROSTRUCTURE · TRADING SYSTEMS</text>
+
+    <g transform="translate(902 70)">
+      <rect width="118" height="31" rx="15.5" fill="#ffffff" fill-opacity="0.08" stroke="#93c5fd" stroke-opacity="0.55"/>
+      <text x="59" y="20.5" text-anchor="middle" class="pill">FX + EQUITIES</text>
+    </g>
+    <g transform="translate(1030 70)">
+      <rect width="116" height="31" rx="15.5" fill="#ffffff" fill-opacity="0.08" stroke="#c4b5fd" stroke-opacity="0.55"/>
+      <text x="58" y="20.5" text-anchor="middle" class="pill">NEW YORK</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="56" y="153" width="338" height="134" rx="19" fill="#ffffff" fill-opacity="0.075" stroke="#38bdf8" stroke-opacity="0.58"/>
+      <rect x="56" y="153" width="338" height="6" rx="3" fill="#38bdf8"/>
+      <circle cx="88" cy="188" r="16" fill="#0c4a6e" stroke="#38bdf8" stroke-opacity="0.75"/>
+      <path d="M80 188h16M88 180v16" stroke="#7dd3fc" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="116" y="187" class="cardTag" fill="#7dd3fc">FX · RELATIVE VALUE</text>
+      <text x="80" y="226" class="cardTitle">Basis-Arbitrage Engine</text>
+      <text x="80" y="250" class="cardSub">Low-latency execution and operational controls</text>
+      <text x="80" y="273" class="cardMeta">RUST · EVENT-DRIVEN · FAIL-CLOSED</text>
+
+      <rect x="431" y="153" width="338" height="134" rx="19" fill="#ffffff" fill-opacity="0.075" stroke="#2dd4bf" stroke-opacity="0.58"/>
+      <rect x="431" y="153" width="338" height="6" rx="3" fill="#2dd4bf"/>
+      <circle cx="463" cy="188" r="16" fill="#134e4a" stroke="#2dd4bf" stroke-opacity="0.75"/>
+      <path d="M455 194l7-8 6 4 7-12" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="491" y="187" class="cardTag" fill="#5eead4">SYSTEMATIC U.S. EQUITIES</text>
+      <text x="455" y="226" class="cardTitle">Research → Deployment</text>
+      <text x="455" y="250" class="cardSub">Auditable daily workflow with live safety gates</text>
+      <text x="455" y="273" class="cardMeta">PYTHON · OFFLINE-VERIFIED · 41 TESTS</text>
+
+      <rect x="806" y="153" width="338" height="134" rx="19" fill="#ffffff" fill-opacity="0.075" stroke="#a78bfa" stroke-opacity="0.58"/>
+      <rect x="806" y="153" width="338" height="6" rx="3" fill="#a78bfa"/>
+      <circle cx="838" cy="188" r="16" fill="#4c1d95" stroke="#a78bfa" stroke-opacity="0.75"/>
+      <circle cx="831" cy="184" r="3.5" fill="#c4b5fd"/><circle cx="845" cy="184" r="3.5" fill="#c4b5fd"/><circle cx="838" cy="195" r="3.5" fill="#c4b5fd"/>
+      <path d="M831 184L838 195L845 184" fill="none" stroke="#c4b5fd" stroke-width="1.5"/>
+      <text x="866" y="187" class="cardTag" fill="#c4b5fd">KOREAN EVENT RESEARCH</text>
+      <text x="830" y="226" class="cardTitle">Evidence Before Narrative</text>
+      <text x="830" y="250" class="cardSub">Matched controls and prospective OOS monitoring</text>
+      <text x="830" y="273" class="cardMeta">2,614 STOCKS · 503 vs 503 · OOS</text>
+    </g>
+
+    <line x1="56" y1="316" x2="1144" y2="316" stroke="#ffffff" stroke-opacity="0.15"/>
+    <text x="56" y="340" class="footer">M.A. Mathematics of Finance, Columbia University</text>
+    <text x="1144" y="340" text-anchor="end" class="footer">Former FX Quantitative Trader</text>
+  </g>
+</svg>
